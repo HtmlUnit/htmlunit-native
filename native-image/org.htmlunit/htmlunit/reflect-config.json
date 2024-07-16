@@ -16809,5 +16809,55 @@
       {"name": "connTimeToLive"},
       {"name": "connTimeToLiveTimeUnit"}
     ]
+  },
+
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.RecursiveFunctionObject"},
+    "name": "org.htmlunit.javascript.HtmlUnitScriptable",
+    "methods": [{"name": "<init>"}],
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.host.intl.Intl"},
+    "name": "org.htmlunit.javascript.host.intl.Collator",
+    "methods": [{"name": "<init>"}],
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.host.intl.Intl"},
+    "name": "org.htmlunit.javascript.host.intl.DateTimeFormat",
+    "methods": [{"name": "<init>"}],
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.host.intl.Intl"},
+    "name": "org.htmlunit.javascript.host.intl.NumberFormat",
+    "methods": [{"name": "<init>"}],
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.host.intl.Intl"},
+    "name": "org.htmlunit.javascript.host.intl.V8BreakIterator",
+    "methods": [{"name": "<init>"}],
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.host.worker.DedicatedWorkerGlobalScope"},
+    "name": "org.htmlunit.javascript.host.event.EventTarget",
+    "methods": [{"name": "<init>"}],
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.host.worker.DedicatedWorkerGlobalScope"},
+    "name": "org.htmlunit.javascript.host.worker.DedicatedWorkerGlobalScope",
+    "methods": [{"name": "<init>"}],
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true
   }
 ]
