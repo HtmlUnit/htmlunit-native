@@ -16752,5 +16752,44 @@
     "condition": {"typeReachable": "org.htmlunit.platform.util.XmlUtilsXercesHelper"},
     "name": "org.apache.xerces.dom.DeferredDocumentImpl",
     "fields": [{"name": "fNodeCount"}]
+  },
+
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.JavaScriptEngine"},
+    "name": "org.htmlunit.javascript.host.html.HTMLImageElement",
+    "methods": [{"name": "jsConstructorImage"}]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.JavaScriptEngine"},
+    "name": "org.htmlunit.javascript.host.html.HTMLOptionElement",
+    "methods": [{"name": "jsConstructorOption", "parameterTypes": ["java.lang.Object", "java.lang.String", "boolean", "boolean"]}]
+  },
+
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.host.Location"},
+    "name": "org.htmlunit.javascript.host.Location",
+    "methods": [
+      {"name": "assign", "parameterTypes": ["java.lang.String"]},
+      {"name": "reload", "parameterTypes": ["boolean"]},
+      {"name": "replace", "parameterTypes": ["java.lang.String"]},
+      {"name": "jsToString"},
+      {"name": "getHash"},
+      {"name": "setHash", "parameterTypes": ["java.lang.String"]},
+      {"name": "getHost"},
+      {"name": "setHost", "parameterTypes": ["java.lang.String"]},
+      {"name": "getHostname"},
+      {"name": "setHostname", "parameterTypes": ["java.lang.String"]},
+      {"name": "getHref"},
+      {"name": "setHref", "parameterTypes": ["java.lang.String"]},
+      {"name": "getOrigin"},
+      {"name": "getPathname"},
+      {"name": "setPathname", "parameterTypes": ["java.lang.String"]},
+      {"name": "getPort"},
+      {"name": "setPort", "parameterTypes": ["java.lang.String"]},
+      {"name": "getProtocol"},
+      {"name": "setProtocol", "parameterTypes": ["java.lang.String"]},
+      {"name": "getSearch"},
+      {"name": "setSearch", "parameterTypes": ["java.lang.String"]}
+    ]
   }
 ]
