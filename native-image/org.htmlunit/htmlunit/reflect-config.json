@@ -16764,7 +16764,6 @@
     "name": "org.htmlunit.javascript.host.html.HTMLOptionElement",
     "methods": [{"name": "jsConstructorOption", "parameterTypes": ["java.lang.Object", "java.lang.String", "boolean", "boolean"]}]
   },
-
   {
     "condition": {"typeReachable": "org.htmlunit.javascript.host.Location"},
     "name": "org.htmlunit.javascript.host.Location",
