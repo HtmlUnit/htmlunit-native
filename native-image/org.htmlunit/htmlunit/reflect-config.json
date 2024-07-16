@@ -2722,397 +2722,476 @@
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgAltGlyph",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgAltGlyphDef",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgAltGlyphItem",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgAnchor",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgAnimate",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgAnimateColor",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgAnimateMotion",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgAnimateTransform",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgCircle",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgClipPath",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgColorProfile",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgCursor",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgDefs",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgDesc",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgEllipse",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeBlend",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeColorMatrix",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeComponentTransfer",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeComposite",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeConvolveMatrix",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeDiffuseLighting",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeDisplacementMap",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeDistantLight",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeFlood",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeFuncA",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeFuncB",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeFuncG",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeFuncR",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeGaussianBlur",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeImage",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeMerge",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeMergeNode",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeMorphology",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeOffset",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFePointLight",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeSpecularLighting",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeSpotLight",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeTile",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFeTurbulence",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFilter",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFont",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFontFace",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFontFaceFormat",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFontFaceName",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFontFaceSrc",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgFontFaceURI",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgForeignObject",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgGlyph",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgGlyphRef",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgGroup",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgHKern",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgImage",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgLine",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgLinearGradient",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgMarker",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgMask",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgMetadata",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgMissingGlyph",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgMPath",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgPath",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgPattern",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgPolygon",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgPolyline",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgRadialGradient",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgRect",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgScript",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgSet",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgStop",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgStyle",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgSwitch",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgSymbol",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgText",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgTextPath",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgTitle",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgTRef",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgTSpan",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgUse",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgView",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
   {
     "condition": {"typeReachable": "org.htmlunit.svg.SvgElementFactory"},
     "name": "org.htmlunit.svg.SvgVKern",
-    "fields": [{"name": "TAG_NAME"}]
+    "fields": [{"name": "TAG_NAME"}],
+    "methods": [{"name": "<init>", "parameterTypes": ["java.lang.String", "java.lang.String", "org.htmlunit.SgmlPage", "java.util.Map"]}]
   },
 
   {
