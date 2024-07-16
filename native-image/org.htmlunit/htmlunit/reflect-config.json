@@ -16731,5 +16731,26 @@
     "name": "org.htmlunit.javascript.proxyautoconfig.ProxyAutoConfig",
     "allDeclaredFields": true,
     "allDeclaredMethods": true
+  },
+
+  {
+    "condition": {"typeReachable": "org.htmlunit.httpclient.HtmlUnitSSLConnectionSocketFactory"},
+    "name": "org.apache.http.HttpHost",
+    "fields": [{"name": "hostname"}]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.httpclient.HtmlUnitSSLConnectionSocketFactory"},
+    "name": "org.apache.http.conn.ssl.SSLConnectionSocketFactory",
+    "fields": [{"name": "socketfactory"}]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.platform.util.XmlUtilsSunXercesHelper"},
+    "name": "com.sun.org.apache.xerces.internal.dom.DeferredDocumentImpl",
+    "fields": [{"name": "fNodeCount"}]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.platform.util.XmlUtilsXercesHelper"},
+    "name": "org.apache.xerces.dom.DeferredDocumentImpl",
+    "fields": [{"name": "fNodeCount"}]
   }
 ]
