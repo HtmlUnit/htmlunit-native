@@ -34,94 +34,118 @@
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.regexp.NativeRegExp",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.NativeContinuation",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.xmlimpl.XMLLibImpl",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.typedarrays.NativeArrayBuffer",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.typedarrays.NativeInt8Array",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.typedarrays.NativeUint8Array",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.typedarrays.NativeUint8ClampedArray",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.typedarrays.NativeInt16Array",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.typedarrays.NativeUint16Array",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.typedarrays.NativeInt32Array",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.typedarrays.NativeUint32Array",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.typedarrays.NativeFloat32Array",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.typedarrays.NativeFloat64Array",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.typedarrays.NativeDataView",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.NativeJavaTopPackage",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.JavaAdapter",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.ImporterTopLevel",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
   {
     "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
     "name": "org.htmlunit.corejs.javascript.NativeJavaTopPackage",
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
   },
-
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.tools.shell.Environment"},
+    "name": "org.htmlunit.corejs.javascript.tools.shell.Environment",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  
   {
     "condition": {
       "typeReachable": "org.htmlunit.corejs.javascript.NativeJavaObject"
@@ -236,5 +260,48 @@
     },
     "name": "org.htmlunit.corejs.javascript.jdk18.VMBridge_jdk18",
     "methods": [{"name": "<init>"}]
+  },
+
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.JavaScriptEngine"},
+    "name": "org.htmlunit.javascript.host.ConsoleCustom",
+    "methods": [{
+      "name": "timeStamp",
+      "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]
+    }]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.JavaScriptEngine"},
+    "name": "org.htmlunit.javascript.host.NumberCustom",
+    "methods": [{
+      "name": "toLocaleString",
+      "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]
+    }]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.tools.shell.Global"},
+    "name": "org.htmlunit.corejs.javascript.tools.shell.Global",
+    "methods": [
+      {"name": "defineClass", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "deserialize", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "doctest", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "gc", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "help", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "load", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "loadClass", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "print", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "quit", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "readline", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "readFile", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "readUrl", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "runCommand", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "seal", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "serialize", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "spawn", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "sync", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "toint32", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "version", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
+      {"name": "write", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]}
+    ]
   }
 ]
