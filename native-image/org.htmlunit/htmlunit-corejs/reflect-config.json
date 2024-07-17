@@ -1,0 +1,240 @@
+[
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.Context"},
+    "name": "org.htmlunit.corejs.javascript.ContextFactory"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.Context"},
+    "name": "org.htmlunit.corejs.javascript.tools.debugger.Main",
+    "methods": [{"name": "attachTo", "parameterTypes": ["org.htmlunit.corejs.javascript.ContextFactory"]}]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.Context"},
+    "name": "org.htmlunit.corejs.javascript.regexp.RegExpImpl",
+    "methods": [{"name": "<init>"}]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.Context"},
+    "name": "org.htmlunit.corejs.javascript.optimizer.Codegen",
+    "methods": [{"name": "<init>"}]
+  },
+  {
+    "condition": {
+      "typeReachable": "org.htmlunit.corejs.javascript.Context"
+    },
+    "name": "org.htmlunit.corejs.javascript.Interpreter",
+    "methods": [{"name": "<init>"}]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ContextFactory"},
+    "name": "org.w3c.dom.Node",
+    "methods": [{"name": "getUserData", "parameterTypes": ["java.lang.String"]}]
+  },
+
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.regexp.NativeRegExp",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.NativeContinuation",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.xmlimpl.XMLLibImpl",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.typedarrays.NativeArrayBuffer",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.typedarrays.NativeInt8Array",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.typedarrays.NativeUint8Array",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.typedarrays.NativeUint8ClampedArray",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.typedarrays.NativeInt16Array",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.typedarrays.NativeUint16Array",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.typedarrays.NativeInt32Array",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.typedarrays.NativeUint32Array",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.typedarrays.NativeFloat32Array",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.typedarrays.NativeFloat64Array",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.typedarrays.NativeDataView",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.NativeJavaTopPackage",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.JavaAdapter",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.ImporterTopLevel",
+    "allDeclaredMethods": true
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.NativeJavaTopPackage",
+    "allDeclaredMethods": true
+  },
+
+  {
+    "condition": {
+      "typeReachable": "org.htmlunit.corejs.javascript.NativeJavaObject"
+    },
+    "name": "org.htmlunit.corejs.javascript.JavaAdapter",
+    "methods": [
+      {"name": "writeAdapterObject", "parameterTypes": ["java.lang.Object", "java.io.ObjectOutputStream"]},
+      {"name": "readAdapterObject", "parameterTypes": ["org.htmlunit.corejs.javascript.Scriptable", "java.io.ObjectInputStream"]}
+    ]
+  },
+  {
+    "condition": {
+      "typeReachable": "org.htmlunit.corejs.javascript.NativeJavaObject"
+    },
+    "name": "java.io.ObjectOutputStream"
+  },
+  {
+    "condition": {
+      "typeReachable": "org.htmlunit.corejs.javascript.NativeJavaObject"
+    },
+    "name": "java.io.ObjectInputStream"
+  },
+
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.tools.shell.Global",
+    "methods": [{"name": "<init>", "parameterTypes": ["org.htmlunit.corejs.javascript.Context"]}]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.lang.Boolean"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.lang.Byte"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.lang.Character"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.lang.Class"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.lang.Double"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.lang.Float"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.lang.Integer"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.lang.Long"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.lang.Number"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.lang.Object"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.lang.Short"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.lang.String"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.util.Date"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "java.math.BigInteger"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.Context"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.ContextFactory"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.Function"
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.ScriptRuntime"},
+    "name": "org.htmlunit.corejs.javascript.ScriptableObject"
+  },
+
+  {
+    "condition": {
+      "typeReachable": "org.htmlunit.corejs.javascript.VMBridge"
+    },
+    "name": "org.htmlunit.corejs.javascript.VMBridge_custom",
+    "methods": [{"name": "<init>"}]
+  },
+  {
+    "condition": {
+      "typeReachable": "org.htmlunit.corejs.javascript.VMBridge"
+    },
+    "name": "org.htmlunit.corejs.javascript.jdk18.VMBridge_jdk18",
+    "methods": [{"name": "<init>"}]
+  }
+]
