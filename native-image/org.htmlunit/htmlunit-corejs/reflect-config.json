@@ -303,5 +303,32 @@
       {"name": "version", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]},
       {"name": "write", "parameterTypes": ["org.htmlunit.corejs.javascript.Context", "org.htmlunit.corejs.javascript.Scriptable", "org.htmlunit.corejs.javascript.Scriptable", "java.lang.Object[]", "org.htmlunit.corejs.javascript.Function"]}
     ]
+  },
+
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.tools.shell.Main"},
+    "name": "org.htmlunit.corejs.javascript.tools.shell.JavaPolicySecurity",
+    "methods": [{"name": "<init>"}]
+  },
+
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.Delegator"},
+    "name": "org.htmlunit.corejs.javascript.Delegator",
+    "methods": [{"name": "<init>"}]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.host.html.DocumentProxy"},
+    "name": "org.htmlunit.javascript.host.html.DocumentProxy",
+    "methods": [{"name": "<init>"}]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.corejs.javascript.Synchronizer"},
+    "name": "org.htmlunit.corejs.javascript.Synchronizer",
+    "methods": [{"name": "<init>"}]
+  },
+  {
+    "condition": {"typeReachable": "org.htmlunit.javascript.host.WindowProxy"},
+    "name": "org.htmlunit.javascript.host.WindowProxy",
+    "methods": [{"name": "<init>"}]
   }
 ]
